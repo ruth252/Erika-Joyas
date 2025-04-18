@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: erika-joyas-project
+    env: docker
+    plan: free
+    dockerfilePath: ./Dockerfile
